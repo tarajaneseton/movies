@@ -1,4 +1,4 @@
-export default function MovieCard({props}) {
+export default function MovieCard(props) {
     return (
         <div key={props.id} className="movie-card">
             <ul className="movie-details">
@@ -15,3 +15,5 @@ export default function MovieCard({props}) {
         </div>
     );
 }
+
+// VIEWING MOVIE:

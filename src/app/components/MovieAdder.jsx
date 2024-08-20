@@ -1,7 +1,7 @@
 // Our saveToWatchList function is passed to this MovieAdder component from its parent component
 export default function MovieAdder({saveToWatchList}) {
 
-    // Set up a function for us to handle data submitted from our simple form
+    // Set up a function to handle data submitted from our simple form
     function handleSubmit(formData) {
         // Get the movie name from whatever the user entered into the 'new-movie' input
         const movie = formData.get('new-movie');
@@ -19,7 +19,7 @@ export default function MovieAdder({saveToWatchList}) {
     return <form action={handleSubmit}> 
         <input name="new-movie" type="text"></input>
         <input name="director" type="text"></input>
-        <label for="director">Movie director</label>
+        <label htmlFor="director">Movie director</label>
 
         <button type="submit">Add to watchlist</button>
     </form>

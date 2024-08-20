@@ -3,7 +3,7 @@ import MovieCard from "./MovieCard";
 export default function List() {
     const movies = [
         {
-            original_title: 'Forrest Gump',
+            original_title: 'rest Gump',
             vote_average: '85%',
             release_date: '1994-10-07',
             runtime: '2h 22m',

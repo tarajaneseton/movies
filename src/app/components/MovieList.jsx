@@ -1,7 +1,5 @@
 import MovieCard from "./MovieCard";
 
-console.log(process.env.TICKETMASTER_API_KEY,"<----process")
-
 async function fetchMovies() {
   return fetch(`https://api.themoviedb.org/3/.json?api_key=${process.env.REACT_APP_API_KEY}`)
   .then(function(response) {
